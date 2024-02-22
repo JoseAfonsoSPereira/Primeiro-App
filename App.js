@@ -1,8 +1,6 @@
-import { StatusBar } from 'expo-status-bar';
+
 import { StyleSheet, Text, View, Image, TouchableOpacity, ScrollView } from 'react-native';
-import { Feather } from '@expo/vector-icons';
-import { Ionicons } from '@expo/vector-icons';
-import Logo from './assets/logo.png';
+import Header from './src/components/header';
 
 export default function App() {
   return (
@@ -13,24 +11,7 @@ export default function App() {
         marginHorizontal: 16,
       }}
     >
-      <View
-        style={{
-          flexDirection: "row",
-          justifyContent: "space-between",
-          width: "100%",
-          alignItems: "center"
-        }}
-      >
-        <Image style={{ width: 150, height: 50 }} source={Logo} />
-        <View style={{ flexDirection: "row" }}>
-          <TouchableOpacity>
-            <Feather name="heart" size={32} color="black" />
-          </TouchableOpacity>
-          <TouchableOpacity style={{ marginLeft: 8 }}>
-            <Ionicons name="chatbubble-ellipses-outline" size={32} color="black" />
-          </TouchableOpacity>
-        </View>
-      </View>
+      <Header/>
       <ScrollView contentContainerStyle={{ gap: 8, height:100, }}
         horizontal style={{ flexDirection: "row" }}
         showsHorizontalScrollIndicator={false}> 
