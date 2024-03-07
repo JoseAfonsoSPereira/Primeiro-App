@@ -1,6 +1,6 @@
 import { View, Image, TouchableOpacity, StyleSheet } from "react-native";
 import { Feather } from "@expo/vector-icons";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/instagram-logo.png";
 
 export default function Header() {
   return (

@@ -1,6 +1,6 @@
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { View, StyleSheet, TouchableOpacity, Image } from "react-native";
-import PostImage from "../../assets/post.jpg";
+import PostImage from "../../assets/post-example.png";
 
 export default function MyPosts() {
   return (

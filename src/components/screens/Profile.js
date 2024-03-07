@@ -1,7 +1,7 @@
 
-import {View, } from 'react-native';
+import {View} from 'react-native';
 import InfoProfile from '../InfoProfile';
-import Cbum from './src/assets/Cbum.jpg';
+import Cbum from '../../assets/Cbum.jpg';
 import MyPosts from '../MyPosts';
 
 export default function Profile( ) {
