@@ -1,6 +1,6 @@
 import { View } from 'react-native';
-import Header from './src/components/header';
-import Stories from './src/components/Stories';
+import Header from '../header';
+import Stories from '../Stories';
 
 
 export default function App() {

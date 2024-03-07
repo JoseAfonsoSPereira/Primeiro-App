@@ -1,10 +1,10 @@
 
 import {View, } from 'react-native';
-import InfoProfile from './src/components/InfoProfile';
+import InfoProfile from '../InfoProfile';
 import Cbum from './src/assets/Cbum.jpg';
-import MyPosts from './src/components/MyPosts';
+import MyPosts from '../MyPosts';
 
-export default function App({}) {
+export default function Profile( ) {
   return (
     <View
       style={{
